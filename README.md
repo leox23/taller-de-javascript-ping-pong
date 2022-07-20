@@ -2,6 +2,8 @@
 
 Parte de juego en ping pong en javascript.
 
+Disponible online en https://leox23.github.io/taller-de-javascript-ping-pong/
+
 Instrucciones:
 
 W y S mueven arriba/abajo la barra izquierda.
