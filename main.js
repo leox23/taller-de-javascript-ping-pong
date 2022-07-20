@@ -176,19 +176,19 @@ var board_view = new BoardView(canvas, board);
 Document,addEventListener("keydown", function(event) {
         if (event.keyCode == 38) {
             event.preventDefault();
-            bar.up();
+            bar_2.up();
         }
         else if (event.keyCode == 40) {
             event.preventDefault();
-            bar.down()
+            bar_2.down();
         }
         else if (event.keyCode == 87) {
             event.preventDefault();
-            bar_2.up();
+            bar.up();
         }
         else if (event.keyCode == 83) {
             event.preventDefault();
-            bar_2.down();
+            bar.down()
         }
         else if (event.keyCode === 32) {
             event.preventDefault();
